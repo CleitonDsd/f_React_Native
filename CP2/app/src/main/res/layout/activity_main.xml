@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informe_o_material_que_deseja"
+        android:textSize="22sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdbPisoBranco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/piso_branco_baixo_brilho"/>
+
+        <RadioButton
+            android:id="@+id/rdbPisoAlbania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/piso_albania_45x45"/>
+
+        <RadioButton
+            android:id="@+id/rdbPorcelanatoPerlato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/porcelanato_perlato"/>
+
+        <RadioButton
+            android:id="@+id/rdbRevestimentoMosaico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/revestimento_mosaico"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informe_a_medida_em_m2"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/edtMetrosQuadrados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/chkFrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ultra_frete_mega_r_pido"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="@string/calcular"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R$ 0.00"
+        android:textAlignment="center"
+        android:textSize="32sp"/>
+
+</LinearLayout>
+

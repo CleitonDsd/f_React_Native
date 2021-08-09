@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F6E86C"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9C22FF73"
+        android:onClick="changeImage"
+        android:padding="15dp"
+        android:text="Próximo" />
+
+    <Button
+        android:id="@+id/buttonPrevious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7A22FF73"
+        android:onClick="changeImage"
+        android:padding="15dp"
+        android:text="Anterior" />
+
+</LinearLayout>

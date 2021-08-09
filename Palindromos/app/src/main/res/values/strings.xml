@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Palindromos</string>
+    <string name ="digite_sua_frase"> Digite sua frase:</string>
+    <string name ="verificar">Verificar</string>
+</resources>
